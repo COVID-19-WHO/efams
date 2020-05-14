@@ -4,7 +4,7 @@ import '../styles/humanit.css';
 import Frame from './Frame'
 import SpecificFrame from './SpecificFrame'
 
-
+import Error from './Error'
 
 import hum1 from '../Images/humnitarian/relief1.jpg'
 import hum2 from '../Images/humnitarian/train1.jpeg'
@@ -50,6 +50,10 @@ const Humanit = () => {
                 </Route>
                 <Route path="/efams/Education" exact>
                     <SpecificFrame docs={Education} />
+                </Route>
+
+                <Route path="*" exact>
+                <Error />
                 </Route>
 
             </BrowserRouter>
