@@ -39,7 +39,7 @@ const Nav = (props) => {
            
             </div>
             <div className="home" title="HOME"> 
-            <NavLink to="/">
+            <NavLink to="/efams">
                     <img src={home} alt=""/ >
                     </NavLink>
                 </div>

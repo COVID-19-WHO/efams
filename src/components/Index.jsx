@@ -6,6 +6,7 @@ import Contributors from './Contributors'
 import  Footer from './Footer'
 import  AboutUs from './AboutUs'
 import  Donate from './Donate'
+import  Error from './Error'
 import {BrowserRouter as MainRouter , Route ,Switch,NavLink} from 'react-router-dom'
 
 
@@ -23,7 +24,7 @@ const ref1 = React.createRef()
 
            <Switch>
             
-            <Route exact path="/" >
+            <Route exact path="/efams" >
            <Message1/>
            <div ref={ref1}>
            <Message2  />
@@ -40,6 +41,10 @@ const ref1 = React.createRef()
 
            <Route exact path="/Donate">
             <Donate/>
+           </Route>
+
+           <Route  path="*">
+            <Error/>
            </Route>
 
             </Switch>

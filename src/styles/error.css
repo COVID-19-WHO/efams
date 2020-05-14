@@ -1,0 +1,13 @@
+.error{
+    min-height: 90vh;
+    width: 90%; 
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7776;
+    background-image: url('../Images/error.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

@@ -174,7 +174,7 @@ console.log(Back)
         console.log( props.docs)
         //props.docs
         
-            props.history.push( "/" )
+            props.history.push( "/efams" )
      
         
     }

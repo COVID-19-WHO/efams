@@ -28,7 +28,7 @@ const Frame = (props) => {
     const docTemp= props.docs.map((doc)=>{
 
             return(
-               <div  id={doc.id} onClickCapture={()=>{handleClick(doc.id)}} title={doc['title']}>
+               <div  id={doc.id} onClick={()=>{handleClick(doc.id)}} title={doc['title']}>
                 <div key={doc.id} className="frame_temp">
                     <div className="frame_img">
                         <img src={doc['img']} alt=""/>

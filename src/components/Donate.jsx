@@ -31,7 +31,7 @@ const Donate = () => {
             <div className="div">
                 <h3>PAYPAL</h3>
                 <p>NAME: Emergency Fund Accredition and Management Scheme(EFAMS)</p>
-                <p>FINANCE MANAGER: Pamela .A.Mikole </p>
+                <p>FINANCE MANAGER: Mike. J. Kelly  </p>
                 <p>ACCOUNT: Papamijoke@yahoo.com</p>
                 <p>PLATFORM: PAYPAL</p>
                 <p>COMMENT: All Donations Are Received, Same Day</p>
