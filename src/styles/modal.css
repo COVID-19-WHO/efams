@@ -2,7 +2,6 @@
 
     height: 80vh;
     width: 800px;
-    box-shadow: 2px 2px 2px 2px #5DA4D9;
     text-align: center;
     padding-top: 10px;
     border: hidden;
@@ -39,4 +38,19 @@
 .cancel:hover{
     cursor: pointer;
     opacity: 0.3;
+}
+
+
+@media screen and (max-width: 565px) {
+    
+   .modal_comp{
+       width: 90%;
+       padding-top: 5px;
+   }
+
+   .mod_contain{
+       padding-left: 10px;
+       justify-content: flex-start;
+       text-align: start;
+   }
 }

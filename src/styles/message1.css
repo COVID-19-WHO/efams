@@ -20,3 +20,17 @@
 }
 
 
+@media screen and (max-width: 565px) {
+    .message{
+        margin: 2px 2px;
+        padding: 15px;
+    }
+
+    .message p{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+

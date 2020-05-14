@@ -100,7 +100,7 @@ const closeModal = ()=>{
             </NavLink>
             </div>
             <div className="banner">
-                <a href=""><img src={banner1} alt=""/></a>
+                <img src={banner1} alt=""/>
                 
                  <img src={banner2} alt=""/>
                 <img src={banner3} alt=""/>

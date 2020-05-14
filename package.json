@@ -1,7 +1,7 @@
 {
   "name": "covid",
   "version": "0.1.0",
-  "homepage":"http://darkHucks.github.io/efams/",
+  "homepage":"http://covid-who.github.io/efams/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

@@ -80,3 +80,23 @@ a {
       justify-content: flex-start;
       align-items: flex-start;
   }
+
+  @media screen and (max-width: 565px) {
+    
+    .nav{
+        flex-direction: column;
+    }
+
+    .brand{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start
+    }
+
+    .emen_out{
+       font-size: 1em;
+       margin-left: 10px;
+    }
+}
+
+
