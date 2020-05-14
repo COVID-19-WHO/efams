@@ -1,4 +1,4 @@
-.specific_inner{
+.specific_inner {
     width: 400px;
     min-height: 400px;
     text-align: start;
@@ -9,33 +9,26 @@
     border-radius: 6px;
     font-weight: bold;
     padding: 10px;
-    
-
 }
 
-.specific_inner img{
+.specific_inner img {
     width: 400px;
     height: 250px;
     border-radius: 6px;
     margin-bottom: 2px;
 }
 
-
-
-
-.bck_btn{
+.bck_btn {
     margin: 30px;
     text-align: center;
 }
-.bck_btn:hover{
+
+.bck_btn:hover {
     cursor: pointer;
     opacity: 0.6;
 }
 
-
-
-
-.down_contain{
+.down_contain {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -44,6 +37,16 @@
     margin: 20px;
 }
 
-.back_text{
+.back_text {
     padding: 5px;
+}
+
+@media screen and (max-width: 565px) {
+    .specific_inner{
+        width: 90%;
+    }
+    .down_contain{
+        justify-content: center;
+        margin: 1px;
+    }
 }

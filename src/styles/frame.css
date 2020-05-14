@@ -1,22 +1,20 @@
-.frame_temp{
+.frame_temp {
     background-color: #fff;
     height: 50vh;
     width: 500px;
-   margin: 10px;
-   border-radius: 4px;
-    
+    margin: 10px;
+    border-radius: 4px;
     padding: 10px;
     box-shadow: 2px 2px 2px 2px #5DA4D9;
 }
 
-.frame_temp:hover{
+.frame_temp:hover {
     cursor: pointer;
     background-color: #5DA4D9;
     color: #fff;
-    
 }
 
-.frame_img img{
+.frame_img img {
     float: left;
     height: 200px;
     width: 200px;
@@ -25,9 +23,15 @@
     margin-right: 15px;
 }
 
-.contain{
-   display: flex;
-   width: 100%;
-   justify-content: space-around;
-   flex-wrap: wrap; 
+.contain {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 565px) {
+    .frame_temp{
+        width: 95%;
+    }
 }
