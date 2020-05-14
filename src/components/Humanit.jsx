@@ -52,9 +52,7 @@ const Humanit = () => {
                     <SpecificFrame docs={Education} />
                 </Route>
 
-                <Route path="*" exact>
-                <Error />
-                </Route>
+                
 
             </BrowserRouter>
         </div>
