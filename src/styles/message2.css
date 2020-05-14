@@ -1,0 +1,17 @@
+.frame{
+    border: solid thin #fff;
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+
+    
+}
+
+.frame iframe{
+    margin: 20px;
+}
+.message2{
+    
+    padding: 20px 10px;
+    color: #7C7776;
+}

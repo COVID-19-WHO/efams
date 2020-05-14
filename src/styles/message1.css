@@ -1,0 +1,22 @@
+
+
+
+
+.message{
+    background-color: #fff;
+    min-height: 95vh;
+    margin: 10px 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #D5D3D2;
+    color: #7C7776;
+    padding: 20px 50px;
+    margin-bottom: 25px;
+
+}
+
+.message p{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+

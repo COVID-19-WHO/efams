@@ -1,0 +1,49 @@
+.specific_inner{
+    width: 400px;
+    min-height: 400px;
+    text-align: start;
+    background-color: #fff;
+    color: #7C7776;
+    box-shadow: 2px 2px 2px 2px #7C7776;
+    margin: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px;
+    
+
+}
+
+.specific_inner img{
+    width: 400px;
+    height: 250px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+
+
+
+.bck_btn{
+    margin: 30px;
+    text-align: center;
+}
+.bck_btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+
+
+.down_contain{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.back_text{
+    padding: 5px;
+}

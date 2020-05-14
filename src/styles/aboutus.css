@@ -1,0 +1,27 @@
+.about_us h3{
+    width: 60%;
+    padding: 40px;
+    color: #7C7776;
+    font-weight: bolder;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #5DA4D9;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about_us article{
+    width: 80%;
+    min-height: 100vh;
+    padding: 50px;
+    color: #7C7776;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #D5D3D2;
+    margin: 60px auto;
+}
+
+.about_us article p{
+    margin-bottom: 20px;
+}

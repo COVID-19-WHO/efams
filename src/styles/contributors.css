@@ -1,0 +1,43 @@
+.top{
+    width: 60%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #D5D3D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7C7776;
+    background-color: #fff;
+
+}
+
+ul{
+    list-style-type: none;
+    width: 80%;
+    padding: 40px;
+    color: #7C7776;
+    font-weight: bolder;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #D5D3D2;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.download{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px #D5D3D2;
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+.download img{
+    width: 70px;
+    height: 60px;
+}
+
+.download img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}

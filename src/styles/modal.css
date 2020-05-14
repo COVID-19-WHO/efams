@@ -1,0 +1,42 @@
+.modal_comp{
+
+    height: 80vh;
+    width: 800px;
+    box-shadow: 2px 2px 2px 2px #5DA4D9;
+    text-align: center;
+    padding-top: 10px;
+    border: hidden;
+    font-weight: bolder;
+    color: #7C7776;
+}
+
+
+.modal_comp h2{
+    margin-bottom: 30px;
+}
+
+.mod_contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.modal_title{
+    display: flex;
+    justify-content: center;
+}
+
+.cancel{
+    color: #f00;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+
+.cancel:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
