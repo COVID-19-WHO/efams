@@ -40,10 +40,10 @@ const Message1 = () => {
                     <p>
                         As COVID-19 continues to evolve, It reinforces the need for us to act together to keep not only our families, employees and communities healthy, but also our businesses and the economy.
             </p>
-                    <p>
+                    <p className="notice">
                         We Added Special Forumn For Organization And Individuals With Substantial Amount To Give as Loan to The Cause, Pending the passing of the Period.This is to Offer to the Public the Right to have a share in the Patent of the Pre Release COVID-19 Vaccine.  
                 </p>
-                <p>
+                <p className="notice">
                 For Loan Reimbursement, Compensations And Benefits Attached, Are Been Graded Into Categories Based On The Weight Of the Loan. After Donation Fill The Loan form In The Donation Section
                 </p>
             
