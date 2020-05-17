@@ -1,4 +1,4 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 30px 30px;
@@ -11,60 +11,54 @@
     box-shadow: 1px 1px 1px 1px #D5D3D2;
 }
 
-
-
-.logo{
+.logo {
     height: 100px;
     width: 100px;
 }
 
-.brand{
+.brand {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 10px;
-
 }
 
-.nav p{
+.nav p {
     border: solid thin #fff;
     padding: 10px;
 }
 
-.donate{
+.donate {
     padding: 10px;
     font-size: 1.2em;
     background-color: crimson;
-    border-radius: 4px; 
-
+    border-radius: 4px;
 }
-.donate:hover{
+
+.donate:hover {
     cursor: pointer;
     border-radius: 30px;
     background-color: #7C7776;
-
-   
 }
 
-.nav p:hover{
+.nav p:hover {
     cursor: pointer;
     background-color: #fff;
     color: #5DA4D9;
 }
 
-.emen{
+.emen {
     color: crimson;
     font-size: 1.4em;
-
 }
 
-.home img{
+.home img {
     width: 30px;
     height: 30px;
 }
 
-.home img:hover{
+.home img:hover {
     cursor: pointer;
     border-radius: 15px;
 }
@@ -72,31 +66,26 @@
 a {
     text-decoration: none;
     color: inherit;
-  }
- 
-  .emen_out{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-  }
+}
 
-  @media screen and (max-width: 565px) {
-    
-    .nav{
+.emen_out {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 565px) {
+    .nav {
         flex-direction: column;
     }
-
-    .brand{
+    .brand {
         width: 100%;
         flex-direction: row;
         justify-content: flex-start
     }
-
-    .emen_out{
-       font-size: 1em;
-       margin-left: 10px;
+    .emen_out {
+        font-size: 1em;
+        margin-left: 10px;
     }
 }
-
-

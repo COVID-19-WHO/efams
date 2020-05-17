@@ -1,7 +1,7 @@
 {
   "name": "covid",
   "version": "0.1.0",
-  "homepage":"http://covid-who.github.io/efams/",
+  "homepage": "http://covid-who.github.io/efams/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,7 +14,8 @@
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "toastr": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,4 @@
-.modal_comp{
-
+.modal_comp {
     height: 80vh;
     width: 800px;
     text-align: center;
@@ -9,12 +8,11 @@
     color: #7C7776;
 }
 
-
-.modal_comp h2{
+.modal_comp h2 {
     margin-bottom: 30px;
 }
 
-.mod_contain{
+.mod_contain {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,35 +20,30 @@
     padding-left: 30px;
 }
 
-.modal_title{
+.modal_title {
     display: flex;
     justify-content: center;
 }
 
-.cancel{
+.cancel {
     color: #f00;
     font-weight: bolder;
     font-size: 1.2em;
-
 }
 
-
-.cancel:hover{
+.cancel:hover {
     cursor: pointer;
     opacity: 0.3;
 }
 
-
 @media screen and (max-width: 565px) {
-    
-   .modal_comp{
-       width: 90%;
-       padding-top: 5px;
-   }
-
-   .mod_contain{
-       padding-left: 10px;
-       justify-content: flex-start;
-       text-align: start;
-   }
+    .modal_comp {
+        width: 90%;
+        padding-top: 5px;
+    }
+    .mod_contain {
+        padding-left: 10px;
+        justify-content: flex-start;
+        text-align: start;
+    }
 }

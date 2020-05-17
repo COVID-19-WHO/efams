@@ -1,6 +1,6 @@
-.error{
+.error {
     min-height: 90vh;
-    width: 90%; 
+    width: 90%;
     margin: 40px auto;
     display: flex;
     justify-content: center;
@@ -9,5 +9,4 @@
     background-image: url('../Images/error.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }

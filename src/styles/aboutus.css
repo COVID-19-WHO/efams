@@ -1,4 +1,4 @@
-.about_us h3{
+.about_us h3 {
     width: 60%;
     padding: 40px;
     color: #7C7776;
@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.about_us article{
+.about_us article {
     width: 80%;
     min-height: 100vh;
     padding: 50px;
@@ -22,6 +22,6 @@
     margin: 60px auto;
 }
 
-.about_us article p{
+.about_us article p {
     margin-bottom: 20px;
 }

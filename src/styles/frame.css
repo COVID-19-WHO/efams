@@ -30,6 +30,12 @@
     flex-wrap: wrap;
 }
 
+
+input[type="file"]:hover{
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 565px) {
     .frame_temp{
         width: 95%;

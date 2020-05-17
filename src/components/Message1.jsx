@@ -18,7 +18,7 @@ const Message1 = () => {
 
     return (
         <StyleRoot>
-            <div  style={styles.bounceInUp}>
+            <div style={styles.bounceInUp}>
                 <div className="message">
                     <h2 > Emergency Fund Accredition and Management Scheme(EFAMS)</h2>
                     <h2>A Sub-division of World Health Organization(WHO)</h2>
@@ -41,11 +41,16 @@ const Message1 = () => {
                         As COVID-19 continues to evolve, It reinforces the need for us to act together to keep not only our families, employees and communities healthy, but also our businesses and the economy.
             </p>
                     <p>
-                        We Added Special Forumn For Organization And Individuals With Substantial Amount To Lease to The Cause, Pending the passing of the Period.
+                        We Added Special Forumn For Organization And Individuals With Substantial Amount To Give as Loan to The Cause, Pending the passing of the Period.This is to Offer to the Public the Right to have a share in the Patent of the Pre Release COVID-19 Vaccine.  
                 </p>
+                <p>
+                For Loan Reimbursement, Compensations And Benefits Attached, Are Been Graded Into Categories Based On The Weight Of the Loan. After Donation Fill The Loan form In The Donation Section
+                </p>
+            
                     <p>
                         Your Donation Is Greatly Appreciated In The Global Effort Supporting The  Ability Of All Countries To Respond to COVID-19, Especially Where The Needs Are Greatest And In Countries With Less Access To Global Markets And Lower Resources
                 </p>
+            
                 </div>
 
             </div>

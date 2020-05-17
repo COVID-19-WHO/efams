@@ -1,4 +1,4 @@
-.top{
+.top {
     width: 60%;
     margin: 20px auto;
     margin-bottom: 40px;
@@ -9,10 +9,9 @@
     align-items: center;
     color: #7C7776;
     background-color: #fff;
-
 }
 
-ul{
+ul {
     list-style-type: none;
     width: 80%;
     padding: 40px;
@@ -23,7 +22,8 @@ ul{
     border-radius: 5px;
     margin: 10px auto;
 }
-.download{
+
+.download {
     background-color: #fff;
     padding: 20px;
     box-shadow: 2px 2px 2px 2px #D5D3D2;
@@ -31,13 +31,12 @@ ul{
     margin: 30px auto;
 }
 
-
-.download img{
+.download img {
     width: 70px;
     height: 60px;
 }
 
-.download img:hover{
+.download img:hover {
     cursor: pointer;
     opacity: 0.5;
 }
