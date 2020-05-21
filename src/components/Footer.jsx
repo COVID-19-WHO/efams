@@ -18,7 +18,6 @@ import linkedin from '../Images/icons/icons8-linkedin-50.png'
 import account from '../Images/icons/icons8-merchant-account-50.png'
 import twitter from '../Images/icons/icons8-twitter-circled-50.png'
 import wallet from '../Images/icons/icons8-coin-wallet-50.png'
-import paypal_img from '../Images/icons/icons8-paypal-50.png'
 
 
 
@@ -51,18 +50,6 @@ const Footer = (props) => {
 
 
 
-    const paypal = {
-
-        title: "FOR  ORGANIZATION OR INDIVIDUAL DONATION ",
-        name: "NAME: Emergency Fund Accredition and Management Scheme(EFAMS)",
-        Routing: "FINANCE MANAGER: Pamela .A.Mikole",
-        account: "ACCOUNT: Papamijoke@yahoo.com",
-        orgName: "PLATFORM: PAYPAL",
-        swiftCode: "COMMENT: All Donations Are Received Same Day"
-
-    }
-
-
     const [state, updateState] = useState("")
 
     const openModal = (e) => {
@@ -71,9 +58,7 @@ const Footer = (props) => {
             updateState(bank)
         } else if (e.target.id === "bitwallet") {
             updateState(bitcoin)
-        } else if (e.target.id === "paypal") {
-            updateState(paypal)
-        }
+        } 
         updateModal(true)
         console.log(modal)
     }
@@ -89,7 +74,6 @@ const Footer = (props) => {
                 <a href="https://web.facebook.com/WHO/?_rdc=1&_rdr"><img src={facebook} alt="" title="FACEBOOK" /></a>
                 <a href="https://twitter.com/who?lang=en" ><img src={twitter} alt="" title="TWITTER" /></a>
                 <a href="https://www.linkedin.com/company/world-health-organization/"><img src={linkedin} alt="" title="LINKEDIN" /></a>
-                <img src={paypal_img} alt="" title="PAYPAL" onClick={openModal} id="paypal" />
                 <img src={account} alt="" title="ACCOUNT" onClick={openModal} id="account" />
                 <img src={wallet} alt="" title="BITCOIN WALLET" onClick={openModal} id="bitwallet" />
 
@@ -109,10 +93,10 @@ const Footer = (props) => {
                 <img src={banner6} alt="" />
             </div>
             <p>
-                &copy;2020 Emergency Relief Response | EFMS
+                &copy;2020 Emergency Relief Response | EFAMS
             </p>
             <p className="last">
-                Emergency Relief Response | EFMS is a recognized 501(c)(3) not-for-profit organization by the IRS.
+                Emergency Relief Response | EFAMS is a recognized 501(c)(3) not-for-profit organization by the IRS.
             </p>
 
             <Modal
