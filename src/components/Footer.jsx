@@ -96,7 +96,7 @@ const Footer = (props) => {
                 &copy;2020 Emergency Relief Response | EFAMS
             </p>
             <p className="last">
-                Emergency Relief Response | EFAMS is a recognized 501(c)(3) not-for-profit organization by the IRS.
+                Emergency Relief Response | EFAMS is a recognized 501(c)(3) not-for-profit organization.
             </p>
 
             <Modal

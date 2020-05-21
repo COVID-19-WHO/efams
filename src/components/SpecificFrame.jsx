@@ -79,15 +79,15 @@ const SpecificFrame = (props) => {
                         back_img: spec3
                     },
                     {
-                        id: "f_4", text: "We  ascertain  the health and safety of our employees while still providing the timely delivery of the services to maintain the movement of  food supply from farm to needed regions",
+                        id: "f_4", text: "We  ascertain  the health and safety of our employees while still providing the timely delivery of the services to maintain the movement of  food supply from farm to needed regions.",
                         back_img: spec4
                     },
                     {
-                        id: "f_5", text: "producers of eligible commodities can request for loan and they have up to 12 months to repay their commodity loans. The maturity extension applies to nonrecourse loans for crop. Eligible open loans must in good standing and registered with the organisation",
+                        id: "f_5", text: "producers of eligible commodities can request for loan and they have up to 12 months to repay their commodity loans. The maturity extension applies to nonrecourse loans for crop. Eligible open loans must in good standing and registered with the organisation.",
                         back_img: spec5
                     },
                     {
-                        id: "f_6", text: "By creating Food labeling flexibility, food can be diverted from restaurants to retail, ensuring that this food is made available to families around the country and helping restaurants and their suppliers access additional markets, such as grocery stores, that are currently experiencing greater demand ",
+                        id: "f_6", text: "By creating Food labeling flexibility, food can be diverted from restaurants to retail, ensuring that this food is made available to families around the country and helping restaurants and their suppliers access additional markets, such as grocery stores, that are currently experiencing greater demand. ",
                         back_img: spec6
                     },
                     {
@@ -112,7 +112,7 @@ const SpecificFrame = (props) => {
                         back_img: mask3
                     },
                     {
-                        id: "m_4", text: "collaboration with local  manufactures, to increase mass production and implementation of better product formulation to specifically tackle COVID-19 ",
+                        id: "m_4", text: "collaboration with local  manufactures, to increase mass production and implementation of better product formulation to specifically tackle COVID-19. ",
                         back_img: mask4
                     },
                     {

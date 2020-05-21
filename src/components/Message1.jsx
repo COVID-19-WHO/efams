@@ -29,7 +29,7 @@ const Message1 = () => {
                 </h3>
 
                     <p>
-                        In Response to the Increasing Need For Extensive Relief Packages and Health Care Supplies
+                        In Response to the Increasing Need For Extensive Relief Packages and Health Care Supplies.
             </p>
                     <p>
                         We Are Seeking individual and Organization supports, To Extend Our Reach To The Core Locations In Need.
@@ -48,7 +48,7 @@ const Message1 = () => {
                 </p>
             
                     <p>
-                        Your Donation Is Greatly Appreciated In The Global Effort Supporting The  Ability Of All Countries To Respond to COVID-19, Especially Where The Needs Are Greatest And In Countries With Less Access To Global Markets And Lower Resources
+                        Your Donation Is Greatly Appreciated In The Global Effort Supporting The  Ability Of All Countries To Respond to COVID-19, Especially Where The Needs Are Greatest And In Countries With Less Access To Global Markets And Lower Resources.
                 </p>
             
                 </div>
