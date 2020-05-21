@@ -29,7 +29,7 @@ const Footer = (props) => {
 
     const bank = {
         title: "FOR  ORGANIZATION OR INDIVIDUAL DONATION ",
-        name: "FINANCE ADMIN: Mike. J. Kelly",
+        name: "ACCOUNT NAME: WHO EFAMS",
         Routing: " ROUTING NUMBER: 021313103",
         account: "ACCOUNT NUMBER: 4021105491",
         orgName: 'BANK : Citizens Bank, BANK ADDRESS: 1 Citizens Drive, Riverside,RI 02915',
@@ -41,7 +41,7 @@ const Footer = (props) => {
     const bitcoin = {
 
         title: "FOR  ORGANIZATION OR INDIVIDUAL DONATION ",
-        name: "NAME: Emergency Fund Accredition and Management Scheme(EFAMS) ",
+        name: "ACCOUNT NAME: WHO EFAMS ",
         Routing: "ALL BITCOIN WALLET PROVIDER ",
         account: "BTC WALLET ADDRESS:   3BAEwgpZMxZiFoh3DS6onozzkXnCRJCNoy",
         orgName: "BITCOIN WALLET TRANSFER",
